@@ -1,17 +1,15 @@
 package ru.erminson.ec.dto.yaml;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import ru.erminson.ec.entity.Course;
 
 import java.util.List;
 
+@NoArgsConstructor
+@Getter
+@Setter
 public class YamlCourseList {
     List<Course> courses;
-
-    public List<Course> getCourses() {
-        return courses;
-    }
-
-    public void setCourses(List<Course> courses) {
-        this.courses = courses;
-    }
 }
