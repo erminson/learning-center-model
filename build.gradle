@@ -1,6 +1,7 @@
 plugins {
     id 'java-library'
     id 'maven-publish'
+    id 'java'
 }
 
 group 'ru.erminson.ec'
@@ -30,4 +31,14 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+task successBuild() {
+    doLast {
+        println 'Success Build'
+    }
+}
+
+tasks.named('build') {
+    finalizedBy('successBuild')
 }
