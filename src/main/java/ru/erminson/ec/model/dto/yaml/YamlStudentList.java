@@ -1,9 +1,9 @@
-package ru.erminson.ec.dto.yaml;
+package ru.erminson.ec.model.dto.yaml;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import ru.erminson.ec.entity.Student;
+import ru.erminson.ec.model.entity.Student;
 
 import java.util.List;
 

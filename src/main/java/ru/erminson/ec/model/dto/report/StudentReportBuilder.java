@@ -1,4 +1,4 @@
-package ru.erminson.ec.dto.report;
+package ru.erminson.ec.model.dto.report;
 
 import java.util.List;
 

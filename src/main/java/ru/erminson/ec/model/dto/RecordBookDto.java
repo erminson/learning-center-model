@@ -1,4 +1,4 @@
-package ru.erminson.ec.dto;
+package ru.erminson.ec.model.dto;
 
 import lombok.Data;
 

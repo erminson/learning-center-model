@@ -1,4 +1,4 @@
-package ru.erminson.ec.entity;
+package ru.erminson.ec.model.entity;
 
 import lombok.Data;
 

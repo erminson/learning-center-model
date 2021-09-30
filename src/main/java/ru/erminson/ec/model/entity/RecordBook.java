@@ -1,14 +1,13 @@
-package ru.erminson.ec.entity;
+package ru.erminson.ec.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.ToString;
-import ru.erminson.ec.exception.IllegalInitialDataException;
+import ru.erminson.ec.model.exception.IllegalInitialDataException;
 
 import java.time.LocalDate;
 import java.util.List;
-import java.util.Objects;
 import java.util.stream.Collectors;
 
 @ToString
